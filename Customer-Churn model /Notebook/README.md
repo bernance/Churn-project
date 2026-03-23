@@ -2,7 +2,7 @@
 This module focuses on data exploration, preprocessing, feature engineering, and model training for predicting customer churn.
 
 # Dataset
-### Source: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
+### Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 ### File: Telco Customer Churn.csv
 
 # Objective
