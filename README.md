@@ -8,8 +8,17 @@ Customer churn is a critical problem in subscription-based businesses. This proj
   - Provide actionable insights from data
   - Serve predictions through a web interface
 
-<pre> ``` Churn-Project/ │ ├── backend/ # FastAPI backend for model serving │ ├── frontend/ # React frontend for user interaction │ ├──  model/ │ ├── dataset/ # Raw and cleaned data │ ├── notebooks/ # EDA, preprocessing, model training │ └── README.md ``` </pre>
+## Project Structure
 
+```bash
+Churn-Project/
+├── backend/              # FastAPI backend for model serving
+├── frontend/             # React frontend for user interaction
+├── model/
+│   ├── dataset/          # Raw and cleaned dataset
+│   └── notebooks/        # EDA, preprocessing, and model training
+└── README.md
+```
 # Tech stack
   ## Machine Learning
     Python (Pandas, NumPy, Scikit-learn)
@@ -20,34 +29,34 @@ Customer churn is a critical problem in subscription-based businesses. This proj
     React (User interface)
 
 # My Workflow
-  - Data Cleaning & Preprocessing
-  - Exploratory Data Analysis (EDA)
-  - Feature Engineering
-  - Model Training & Evaluation
-  - Model Deployment via API
-  - Frontend Integration
+     Data Cleaning & Preprocessing
+    Exploratory Data Analysis (EDA)  
+    Feature Engineering
+    Model Training & Evaluation
+    Model Deployment via API
+    Frontend Integration
 
 # Model Performance
-  - Accuracy: 80%
-  - ROC AUC: 85%
+    Accuracy: 80%
+    ROC AUC: 85%
 
 # Key Insights
-  - Customers with high monthly charges are more likely to churn
-  - Long-term contract users churn less
-  - Tenure is strongly negatively correlated with churn
+    Customers with high monthly charges are more likely to churn
+    Long-term contract users churn less
+    Tenure is strongly negatively correlated with churn
 
 # How to run the project
   ## Clone the repository
-    - git clone https://github.com/your-username/churn-project.git
-    - cd churn-project
+    git clone https://github.com/your-username/churn-project.git
+    cd churn-project
   ## Backend setup
-    - cd backend
-    - pip install -r requirements.txt
-    - uvicorn main:app --reload
+    cd backend
+    pip install -r requirements.txt
+    uvicorn main:app --reload
   ## Frontend setup
-    - cd frontend
-    - npm install
-    - npm run dev
+    cd frontend
+    npm install
+    npm run dev
 
 
 # Author
