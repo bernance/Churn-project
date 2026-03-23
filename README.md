@@ -8,18 +8,7 @@ Customer churn is a critical problem in subscription-based businesses. This proj
   - Provide actionable insights from data
   - Serve predictions through a web interface
 
-# Project Structure
-Churn-Project/
-│
-├── backend/                  # FastAPI backend for model serving
-│
-├── frontend/                 # React frontend for user interaction
-│
-├── Customer-churn model/
-│   ├── dataset/              # Raw and cleaned data
-│   ├── notebooks/            # EDA, preprocessing, model training
-│
-└── README.md
+<pre> ``` Churn-Project/ │ ├── backend/ # FastAPI backend for model serving │ ├── frontend/ # React frontend for user interaction │ ├──  model/ │ ├── dataset/ # Raw and cleaned data │ ├── notebooks/ # EDA, preprocessing, model training │ └── README.md ``` </pre>
 
 # Tech stack
   ## Machine Learning
@@ -46,3 +35,21 @@ Churn-Project/
   - Customers with high monthly charges are more likely to churn
   - Long-term contract users churn less
   - Tenure is strongly negatively correlated with churn
+
+# How to run the project
+  ## Clone the repository
+    - git clone https://github.com/your-username/churn-project.git
+    - cd churn-project
+  ## Backend setup
+    - cd backend
+    - pip install -r requirements.txt
+    - uvicorn main:app --reload
+  ## Frontend setup
+    - cd frontend
+    - npm install
+    - npm run dev
+
+
+# Author
+Bernard Worthy
+Machine Learning Engineer | Data Analyst
