@@ -29,7 +29,7 @@ Churn-Project/
     React (User interface)
 
 # My Workflow
-     Data Cleaning & Preprocessing
+    Data Cleaning & Preprocessing
     Exploratory Data Analysis (EDA)  
     Feature Engineering
     Model Training & Evaluation
