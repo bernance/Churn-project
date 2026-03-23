@@ -15,7 +15,7 @@ Churn-Project/
 ├── backend/              # FastAPI backend for model serving
 ├── frontend/             # React frontend for user interaction
 ├── model/
-│   ├── dataset/          # Raw and cleaned dataset
+│   ├── dataset/          # Raw dataset
 │   └── notebooks/        # EDA, preprocessing, and model training
 └── README.md
 ```
@@ -47,8 +47,8 @@ Churn-Project/
 
 # How to run the project
   ## Clone the repository
-    git clone https://github.com/your-username/churn-project.git
-    cd churn-project
+    git clone https://github.com/bernance/Churn-project.git
+    cd Churn-project
   ## Backend setup
     cd backend
     pip install -r requirements.txt
